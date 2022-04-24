@@ -13,5 +13,5 @@ const ontoConnector = new OnToConnector({ supportedChainIds: [1, 3] });
 
 const { activate, deactivate, library, account, error } = useWeb3React();
 
-activate(cloverConnector);
+activate(ontoConnector);
 ```
