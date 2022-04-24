@@ -7,12 +7,11 @@ $ yarn add @iotexproject/onto-connector
 
 # Usage
 
-```
-const ontoConnector = new OnToConnector({ supportedChainIds: [1, 3] })
+```javascript
+// https://github.com/NoahZinsmeister/web3-react
+const ontoConnector = new OnToConnector({ supportedChainIds: [1, 3] });
 
+const { activate, deactivate, library, account, error } = useWeb3React();
 
-const { activate, deactivate, library, account, error } = useWeb3React()
-
-activate(cloverConnector)
-
+activate(cloverConnector);
 ```
